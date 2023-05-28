@@ -278,13 +278,13 @@ html,body{
     position: absolute;
     bottom: 74vh;
     display: flex;
-    height: 44vh;
+    height: 45vh;
     align-items: center;
-    margin-left: 27px;
+    width: 62vw;
     justify-content: space-between;
     z-index: 9999;
     transform: rotate(-90deg);
-    left: 25%;
+    left: 22vw;
     font-size: 25px;
 
    }
