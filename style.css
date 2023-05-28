@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(46 55 75);
+    overflow: hidden;
+
+
+}
+#grad{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1050px;
+    height: 130vh;
+    border-radius: 50%;
+    border: 0.5px solid rgba(255, 255, 255, 0.237);
+    background-color: rgb(42, 56, 76);
+
+}
+#main>#grad>#grad2{
+    position: absolute;
+    top: 65vh;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 0.5px solid rgba(255, 255, 255, 0.178);
+    width: 800px;
+    height: 92vh;
+    background-image: radial-gradient(circle,rgb(84, 108, 160),rgb(27, 33, 41));
+}
+#main>h1{
+    position: absolute;
+    top: 52vh;
+    left: 75vw;
+    transform: translate(-50%,-50%);
+    font-size: 760px;
+    font-family:Trebuchet MS;
+    letter-spacing: 300px;
+    color: rgb(242 241 255);
+    z-index: 9;
+}
+#main>img{
+    position: absolute;
+    width: 1600px;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main>h3{
+    position: absolute;
+    top: 13vh;
+    left: 57vw;
+    z-index: 99;
+    font-size: 47px;
+    font-weight: 900;
+    font-family: rubik;
+    color: rgba(50, 115, 236, 0.886);
+}
+#main>#lnav{
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 4vh;
+
+    font-size: 30px;
+    color: white;
+}
+#main>#lnav>img{
+    height: 5vh;
+    width: 100px;
+
+}
+#main>#shop{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    height: 18vh;
+    width: 140px;
+    border-radius: 25px;
+    background-color: rgb(53, 59, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+#main>#shop>i{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+#main>#rtnav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 240px;
+    min-height: 7vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#main>#rtnav>.button1{
+    min-height: 2vh;
+    width: 19px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#main>#rtnav>.button1>#but{
+    min-height: 1.3vh;
+    width: 12px;
+    
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+#main>#rtnav>.button2{
+    min-height: 1.8vh;
+    width: 15px;
+    background-color: rgb(89, 89, 187);
+    border-radius: 50%;
+}
+#main>#rtnav>.button3{
+    min-height: 1.8vh;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50%;
+}
+#main>#rtnav>.button4{
+    min-height: 1.8vh;
+    width: 15px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+#main>#outerdiv{
+    position: relative;
+    top: 50vh;
+    left: 100%;
+    width: 250px;
+    min-height: 30vh;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#main>#outerdiv>#innerdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    min-height: 17vh;
+    transform: translate(-50%,-50%);
+    background-color: rgb(53, 59, 93);
+    border-radius: 50%;
+}
+#main>#outerdiv>#bigcircle{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    min-height: 2.5vh;
+    background-color: white;
+    border-radius: 50%;
+}
+#main>#outerdiv>#circle1{
+    position: absolute;
+    top: 5.5%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    min-height: 1.3vh;
+    background-color: rgb(46 55 75) ;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#main>#outerdiv>#circle2{
+    position: absolute;
+    bottom: 1.5%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    min-height: 1.3vh;
+    background-color: rgb(46 55 75) ;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#main>p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.835);
+    top: 50vh;
+    z-index: 9999;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    text-align:left;
+    width: 170px;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: poppins;
+}
+@media(max-width:500px){
+    #main{
+
+        overflow: hidden;
+    }
+
+    #main>#grad{
+        position: absolute;
+        top: 47vh;
+        height: 50vh;
+        width: 400px;
+        z-index: 1;
+    }
+    #main>#grad>#grad2{
+        top: 25vh;
+        left: 50%;
+
+        height: 40vh;
+        width: 310px;
+    }
+   #main>img{
+    position: absolute;
+    top: 47vh;
+    z-index: 9999;
+    width: 600px;
+   }
+   #main>h1{
+    z-index: 9;
+    position: absolute;
+    top: 48vh;
+    left: 105vw;
+    font-size: 298px;
+   }
+   #main>#outerdiv{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 88vh;
+    left: 18vw;
+   }
+   #main>h3{
+    position: absolute;
+    z-index: 9999;
+    top: 32.5vh;
+    font-size: 18px;
+   }
+   #main>#rtnav{
+    position: absolute;
+    top: 12vh;
+    left: 17%;
+   }
+   #main>#lnav{
+    position: absolute;
+    bottom: 74vh;
+    display: flex;
+    height: 43vh;
+    align-items: center;
+    margin-left: 27px;
+    justify-content: space-between;
+    z-index: 9999;
+    transform: rotate(-90deg);
+    left: 25%;
+    font-size: 25px;
+
+   }
+   #main>#lnav>i{
+    transform: rotate(90deg);
+   }
+   #main>#lnav>img{
+    height: 4vh;
+    width: 80px;
+    transform: rotate(90deg);
+   }
+   #main>#shop{
+    position: absolute;
+    left: 70vw;
+    height: 12vh;
+    width: 100px;
+    font-size: 12px;
+   }
+   #main>#shop>i{
+    font-size: 35px;
+   }
+   #main>p{
+    position: absolute;
+    top: 79.5vh;
+    margin-left: 15vw;
+    font-size: 12px;
+   }
+}
